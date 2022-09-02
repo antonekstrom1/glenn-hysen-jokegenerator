@@ -1,0 +1,51 @@
+/* Inspiration till koden har jag tagit från Mig själv, W3Schools.com och Discordgruppen. */
+
+#btn {
+  background-color: #2bbf98;
+  border: none;
+  padding: 5px;
+  font-size: 17px;
+  color: #ececec;
+  padding: 12px 25px;
+  margin: 0 auto;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  transform-style: preserve-3d;
+}
+
+#btn:hover {
+  color: #2bbf98;
+  background:#d7f2e8;
+}
+
+.box {
+  width: 550px;
+  padding: 40px 50px;
+  background-color: #634aaf;
+  color:#ececec;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 400;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  font-size: 20px;
+}
+
+body {
+    background-color: #d7f2e8;
+}
+
+main {
+    font-size: 20px;
+}
